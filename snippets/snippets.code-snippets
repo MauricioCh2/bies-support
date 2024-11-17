@@ -1,0 +1,29 @@
+{
+    "let declaration": {
+    "prefix": "!let",
+    "body": [
+        "let ${1:name} = ${2:value};"
+    ],
+    "description": "Declara una variable con 'let'"
+    },
+    "let in declaration": {
+        "prefix": "!letin",
+        "body": [
+            "let {",
+            "    const ${1:name} = ${2:value}",
+            "} in {",
+            "    ${3:// código dentro del bloque 'in'}",
+            "}"
+        ],
+        "description": "Declara variables con 'let-in' "
+    },
+
+    "print statement": {
+    "prefix": "!print",
+    "body": [
+        "print(${1:value});"
+    ],
+    "description": "Imprime un valor en consola"
+    },
+
+}
