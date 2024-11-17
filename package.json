@@ -2,7 +2,14 @@
   "name": "bies-support",
   "displayName": "bies-support",
   "description": "bies language support",
+  "author": "Joshua Yarit Amador Lara, Fabiola Rojas Alvarado, Mauricio Chaves Chaves [Coordinador], Eddy Villarreal Muñoz",
+  "license": "sin licencia",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MauricioCh2/bies-support.git"
+  },
   "version": "0.0.1",
+  "icon": "./images/logo.png",
   "engines": {
     "vscode": "^1.95.0"
   },
